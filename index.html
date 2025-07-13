@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="./style.css">
+    <title>My CV</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header__container">
+                <img class="photo fade-in" src="./img/my-photo.jpg" alt="photo" width="300">
+                <nav class="nav fade-in">
+                    <ul class="nav__list">
+                        <li class="nav__list__li"><a href="#contacts" id="nav_contacts">My Contacts</a></li>
+                        <li class="nav__list__li"><a href="#about" id="nav_about">About Me</a></li>
+                        <li class="nav__list__li"><a href="#education" id="nav_education">Education and work</a></li>
+                        <li class="nav__list__li"><a href="#projects" id="nav_projects">My projects</a></li>
+                        <li class="nav__list__li"><a href="#code" id="nav_code">Code Example</a></li>
+                        <li class="nav__list__li"><a href="#languages" id="nav_languages">Languages</a></li>
+                    </ul>
+                    <h1 class="title pulse">VICTORIIA SUPRUN</h1>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div class="container">
+                <section class="contacts"  id="contacts">
+                    <h2 class="section-title"><a href="#nav_contacts">My Contacts</a></h2>
+                    <ul class="contacts__list">
+                        <li class="contacts__li">phone: +380(63)11-36-462</li>
+                        <li class="contacts__li">email: v.suprun1961@gmail.com</li>
+                        <li class="contacts__li">Telegram: @svictoria1961</li>
+                        <li class="contacts__li last">Viber: ВИКТОРИЯ</li>
+                        <!-- <li></li> -->
+                    </ul>
+                </section>
+                <section class="about" id="about">
+                    <h2 class="section-title"><a href="#nav_about">About Me</a></h2>
+                    <p>I work in a kindergarten as a music director and as an accompanist in the Palace of Children's Creativity.</p>
+                    <p>I am mastering new professions - Web developer and Web designer.</p>
+                    <p class="last">I possess such qualities as responsibility, punctuality, attention, organization, conscientiousness, perseverance,<br> striving for professional self-improvement.</p>
+                </section>
+                <section class="education" id="education">
+                    <h2 class="section-title"><a href="#nav_education">Education and work experience</a></h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Educational institution</th>
+                                <th>Place of work</th>
+                                <th>Job title</th>
+                                <th>Year</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Pedagogical University</td>
+                                <td>Palace of Children's Creativity</td>
+                                <td>Accompanist</td>
+                                <td>1990-2024</td>
+                            </tr>
+                            <tr>
+                                <td>Pedagogical University</td>
+                                <td>Kindergarten</td>
+                                <td>Musical director</td>
+                                <td>1987-2024</td>
+                            </tr>
+                            <tr>
+                                <td>Music College</td>
+                                <td>Kindergarten</td>
+                                <td>Musical director</td>
+                                <td>1981-1986</td>
+                            </tr>
+                            <tr>
+                                <td>Kharkov Mechanical College</td>
+                                <td>Machine building plant</td>
+                                <td>Technologist</td>
+                                <td>1978-1981</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <h2 class="section-title">Additional education (skills)</h2>
+                    <ul class="education__list">
+                        <li class="education__li">1. Rolling Scopes School
+                            <ul class="education__list_second">
+                                <li class="education__li">1.1 RS School Course «JavaScript/Front-end. Stage 0 2024»<br><span>in progress</span></li>
+                                <li class="education__li">1.2 RS School Course «JavaScript/Front-end. Stage 0 2023»<br>
+                                    Certificate <a href="./img/RS-school_page-0001.jpg" target="_blank">RS SCHOOL</a></li>
+                            </ul>
+                        </li>
+                        <li class="education__li">2. Courses in HTML, CSS and JavaScript.
+                            <ul class="education__list_second">
+                                <li class="education__li">2.1 Certificate <a href="./img/front-end-javascript.jpg" target="_blank">Front-end-javascript</a></li>
+                                <li class="education__li">2.2 Certificate <a href="./img/layout.png" target="_blank">Layout</a></li>
+                                <li class="education__li">2.3 Certificate <a href="./img/javascript.png" target="_blank">JavaScript</a></li>
+                            </ul>
+                        </li>
+                        <li class="education__li">3. Programming courses for beginners. <br>  Certificate <a href="./img/programmirovanie.png" target="_blank">Programming</a></li>
+                        <li class="education__li">4. Web design courses.  <br> Certificate <a href="./img/veb-designer.png" target="_blank">Veb-designer</a></li>
+                        <li class="education__li">5. Digital design UX/UI.<br>
+                            <ul class="education__list_second">
+                                <li class="education__li">5.1 Certificate <a href="./img/digital-design.png" target="_blank">Digital-design</a></li>
+                                <li class="education__li last">5.2 Certificate <a href="./img/ux-ui-start.jpeg" target="_blank">Ux-ui-start</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+                <section class="projects" id="projects">
+                    <h2 class="section-title"><a href="#nav_projects">My projects</a></h2>
+                    <ul class="projects__list">
+                        <li class="projects__li"><a href="https://rolling-scopes-school.github.io/viktoriya-s-JSFEPRESCHOOL2023Q2/random-game/" target="_blank">1. HTML5, CSS3, JavaScript</a></li>
+                        <li class="projects__li"><a href="https://rolling-scopes-school.github.io/viktoriya-s-JSFEPRESCHOOL2023Q2/image-galery/" target="_blank">2. HTML5, CSS3, JavaScript</a></li>
+                        <li class="projects__li"><a href="https://rolling-scopes-school.github.io/viktoriya-s-JSFEPRESCHOOL2023Q2/audio-player/" target="_blank">3. HTML5, CSS3, JavaScript</a></li>
+                        <li class="projects__li"><a href="https://rolling-scopes-school.github.io/viktoriya-s-JSFEPRESCHOOL2023Q2/library/" target="_blank">4. HTML5, CSS3, JavaScript</a></li>
+                        <li class="projects__li"><a href="https://viktoriya-s.github.io/music/" target="_blank">5. HTML5, CSS3, JavaScript</a></li>
+                        <li class="projects__li last"><a href="https://viktoriya-s.github.io/banderogys/" target="_blank">6. HTML5, CSS3, JavaScript, UX/UI</a></li>
+                    </ul>
+                </section>
+                <section class="code" id="code">
+                    <h2 class="section-title"><a href="#nav_code">Code Example</a></h2>
+                    <h3 class="code__title">Description:</h3>
+                    <div class="code__description">
+                        <p>The checkForSpam(message) function accepts a string (the message parameter), checks it for the content of the prohibited words spam and sale, and returns the result of the check. The words in the message parameter string can be in any case, for example SPAM or sAlE.</p>
+                        <p>If a forbidden word (spam or sale) is found, the function returns the boolean true.</p>
+                        <p>If there are no forbidden words in the string, the function returns boolean false.</p>
+                    </div>
+                    <h3 class="code__title">Сode:</h3>
+                    <div class="code__description code_code">
+                        <pre>
+                            <code>
+                                function checkForSpam(message) {
+                                let result;
+                                const normalizedMessage = message.toLowerCase();
+                            if (normalizedMessage.includes("sale")) {
+                                result = true;
+                            } else if (normalizedMessage.includes("spam")) {
+                                result = true;
+                            } else {
+                                result = false;
+                            }
+                                console.log(result);
+                                return result;}
+                            </code>
+                        </pre>
+                        <pre>
+                            <code>
+                                checkForSpam("Latest technology news");
+                                checkForSpam("JavaScript weekly newsletter");
+                                checkForSpam("Get best sale offers now!");
+                                checkForSpam("Amazing SalE, only tonight!");
+                            </code>
+                        </pre>
+                    </div>
+                </section>
+                <section class="languages" id="languages">
+                    <h2 class="section-title"><a href="#nav_languages">Languages</a></h2>
+                    <ul class="languages__list">
+                        <li class="languages__li">Ukrainian - native</li>
+                        <li class="languages__li">Russian - native</li>
+                        <li class="languages__li last">English - in progress</li>
+                    </ul>
+                </section>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer__wrapper container">
+                <p>
+                    <a href="https://github.com/VIKTORIYA-S/rsschool-cv/tree/rsschool-cv-html" target="_blank"><img src="./img/free-png.ru-688.png" alt="github" width="170"></a>
+                </p>
+                <p>2025</p>
+                <p>
+                    <a class="footer_a" href="https://rs.school/courses/javascript-preschool-ru" target="_blank"><img src="./img/rs_school_js.svg" alt="logo" width="100"></a>
+                </p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
